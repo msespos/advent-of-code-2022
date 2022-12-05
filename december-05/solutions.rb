@@ -32,7 +32,7 @@ end
 correct_directions.each { |direction| move(direction[0], direction[1], direction[2]) }
 
 # this gives the answer for part one
-# to get the part two answer, just remove .reverse from the end of line 38 and rerun!
+# to get the part two answer, just remove .reverse from the end of line 28 and rerun!
 p "Top Crates: " + stack1.last + stack2.last + stack3.last +
                                    stack4.last + stack5.last + stack6.last +
                                    stack7.last + stack8.last + stack9.last
